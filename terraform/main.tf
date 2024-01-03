@@ -188,7 +188,7 @@ resource "kubernetes_service" "nginx" {
 
   spec {
     selector = {
-      app = "grafana"
+      app = "nginx"
     }
 
     port {
